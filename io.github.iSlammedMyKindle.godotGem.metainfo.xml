@@ -22,6 +22,7 @@
     <p>Turn your steam deck into a windows controller (Or use any controller from a Linux PC on windows). Connect linux to windows over the network in order to bind an emulated controller on windows to the same inputs you're doing on linux. Useful for playing games that might lack support for your controller out of the box, or just need another controller despite running out of USB ports</p>
     <p>Tested controllers:</p>
     <ul>
+        <li>DualSense</li>
         <li>Dualshock 4</li>
         <li>Logitech Gamepad F310</li>
         <li>Nintendo Switch Pro Controller</li>
@@ -43,6 +44,16 @@
     </keywords>
     <url type="homepage">https://github.com/iSlammedMyKindle/godotGem</url>
     <releases>
+        <release version="1.2.0" date="2022-12-27">
+            <description>
+                <ul>
+                    <li>New feature! You can can now use a bridge to communicate outside a Local area network. It's a middle man between a client and server. Check the docs(extras/bridgeHowTo.md) to find out more</li>
+                    <li>Client - vibrations coming back from the server can now be ignored through a toggle. This was added so that the dualSense doesn't go into legacy vibration mode if you're routing audio to the controller from elsewhere.</li>
+                    <li>Server - a bridge mode was added, which effectively doubled the code size. Also vibrations from the emulated controller go to all clients instead of one.</li>
+                    <li>Bridge + Server - optimized stability when disconnecting and reconnecting</li>
+                </ul>
+            </description>
+        </release>
         <release version="1.1.0" date="2022-12-17">
             <description>
                 <ul>

@@ -19,8 +19,8 @@ modules:
       - install -D $FLATPAK_ID.metainfo.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/iSlammedMyKindle/godotGem/releases/download/1.1.0/godotGemClient.zip
-        sha256: d6d33f30ecfcb4c64efc9508205a90facd96b5a4d4366508bd0524d7e53f9004
+        url: https://github.com/iSlammedMyKindle/godotGem/releases/download/1.2.0/godotGemClient.zip
+        sha256: ab01650ffe840c3e8972e72945e8ceac443c5ed1da9f2814949a0b1882e44690
       - type: file
         path: icon.png
       - type: file
