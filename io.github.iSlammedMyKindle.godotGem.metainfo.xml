@@ -6,9 +6,6 @@
     <id>io.github.iSlammedMyKindle.godotGem</id>
     <launchable type="desktop-id">io.github.iSlammedMyKindle.godotGem.desktop</launchable>
     <developer_name>iSlammedMyKindle</developer_name>
-    <provides>
-        <id>io.github.iSlammedMyKindle.godotGem</id>
-    </provides>
     <metadata_license>CC-BY-SA-4.0</metadata_license>
     <project_license>CC-BY-SA-4.0</project_license>
     <content_rating type="oars-1.0" />
