@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2022 iSlammedMyKindle -->
+<!-- Copyright 2022-2026 iSlammedMyKindle -->
 
 <component type="desktop-application">
     <name>godotGem</name>
     <id>io.github.iSlammedMyKindle.godotGem</id>
     <launchable type="desktop-id">io.github.iSlammedMyKindle.godotGem.desktop</launchable>
-    <developer_name>iSlammedMyKindle</developer_name>
+	<developer id="io.github">
+	  <name>iSlammedMyKindle</name>
+	</developer>
     <metadata_license>CC-BY-SA-4.0</metadata_license>
     <project_license>CC-BY-SA-4.0</project_license>
     <content_rating type="oars-1.0" />
     <summary>Controller client to emulate an xbox360 controller for windows</summary>
     <screenshots>
         <screenshot type="default">
-            <image>https://i.imgur.com/o1wmMeU.png</image>
+			<image>https://i.imgur.com/rxdX8d4.png</image>
+        </screenshot>
+		<screenshot>
+			<image>https://i.imgur.com/DSEaIOh.png</image>
+        </screenshot>
+	    <screenshot>
+			<image>https://i.imgur.com/C6M4iED.png</image>
         </screenshot>
     </screenshots>
     <description>
@@ -25,10 +33,22 @@
         <li>Nintendo Switch Pro Controller</li>
         <li>Steam Controller</li>
         <li>Steam Deck</li>
-        <li>Xbox One (+ series) controller</li>
+		<li>Xbox One (+ series) controller</li>
+		<li>Your keyboard (See: Options -> Other -> Key To Controller)</li>
     </ul>
     <p>Other controllers likely work too as long as the godot game engine supports it.</p>
-    <p>Note: you will need to install ViGEm and the godotGem server on windows. (See releases: https://github.com/iSlammedMyKindle/godotGem/releases)</p>
+	<p>Additional Features!</p>
+	<ul>
+		<li>Chroma Backgrounds</li>
+		<li>Change the color of your controller</li>
+		<li>Connect multiple clients to one server, switch between player 1 - 4 [Beta]</li>
+		<li>Click / Tap a button to activate turbo on that button</li>
+		<li>Press F1 to hide the UI</li>
+		<li>Frame Rate Limiting</li>
+		<li>Blinder</li>
+		<li>Button Heat Mapping</li>
+	</ul>
+	<p>Note: you will need to install ViGEm and the godotGem server on windows. (See releases section from Github, linked below)</p>
     </description>
     <keywords>
         <keyword>game</keyword>
@@ -40,7 +60,32 @@
         <keyword>xbox360</keyword>
     </keywords>
     <url type="homepage">https://github.com/iSlammedMyKindle/godotGem</url>
+	<url type="contact">https://discord.gg/xSqWsARMMH</url>
     <releases>
+		<release version="2.0.0" date="2026-3-21">
+            <description>
+				<p>It's been a while... hello there! An entirely new app is ready, right at your fingertips. A lot has changed and their's more to come. Here's what we have:</p>
+
+                <ul>
+					<li>UI Overhaul</li>
+					<li>Turbo mode for each button (select one by clicking / tapping!)</li>
+					<li>RGB Background, Green Screen BG, Magenta Screen BG (for streamers!)</li>
+					<li>Gamepad Redsign, actually looks Like a controller</li>
+					<li>An Options Tab</li>
+					<li>Feedback toggle for turbo</li>
+					<li>Change which player you are! (Players 1-4) [Beta]</li>
+					<li>Change the color of your controller!</li>
+					<li>Button heat map (see how often you press a button)</li>
+					<li>Keyboard to controller! Press a key on the keyboard, and it translates to a controller input.</li>
+					<li>Change the connection port (99.9% won't need this)</li>
+					<li>Frame Rate Limiter (FPS: 15, 30, 60, uncapped)</li>
+					<li>Press F1 on the keyboard to hide the UI</li>
+					<li>Blinder stops everything from rendering</li>
+                </ul>
+				<p>That's everything! If you have questions or need to troubleshoot, check out discord server via the github project</p>
+            </description>
+        </release>
+
         <release version="1.2.0" date="2022-12-27">
             <description>
                 <ul>

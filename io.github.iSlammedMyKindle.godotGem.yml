@@ -1,6 +1,6 @@
 app-id: io.github.iSlammedMyKindle.godotGem
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: godotGemClient.x86_64
 finish-args:
@@ -20,8 +20,8 @@ modules:
       - install -D $FLATPAK_ID.metainfo.xml $FLATPAK_DEST/share/metainfo/$FLATPAK_ID.metainfo.xml
     sources:
       - type: archive
-        url: https://github.com/iSlammedMyKindle/godotGem/releases/download/1.2.0/godotGemClient.zip
-        sha256: ab01650ffe840c3e8972e72945e8ceac443c5ed1da9f2814949a0b1882e44690
+        url: https://github.com/iSlammedMyKindle/godotGem/releases/download/2.0.0/godotGemClient.zip
+        sha256: ba98ff7ecb3875887c2c5d08f54fbeedcccd9b5856ed6323cf903d492df56526
       - type: file
         path: icon.png
       - type: file
