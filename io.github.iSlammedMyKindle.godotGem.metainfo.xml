@@ -65,13 +65,15 @@
     <releases>
 
 		<release version="2.0.1" date="2026-3-30">
-			<ul>
-				<li>Joysticks were playing audio feedback regardless if the toggle was on or not; this has now been fixed</li>
-				<li>The font for port select was previously eyeballed, it's now using the same label as checkboxes (looks more uniform with the rest of the settings)</li>
-				<li>Added Rylan's favorite type of pizza</li>
-			</ul>
+			<description>
+				<ul>
+					<li>Joysticks were playing audio feedback regardless if the toggle was on or not; this has now been fixed</li>
+					<li>The font for port select was previously eyeballed, it's now using the same label as checkboxes (looks more uniform with the rest of the settings)</li>
+					<li>Added Rylan's favorite type of pizza</li>
+				</ul>
 
-			<p>That's it! Until next time, see you later!</p>
+				<p>That's it! Until next time, see you later!</p>
+			</description>
 		</release>
 		<release version="2.0.0" date="2026-3-21">
             <description>
