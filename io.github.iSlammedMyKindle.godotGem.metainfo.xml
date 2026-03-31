@@ -63,6 +63,15 @@
 	<url type="contact">https://discord.gg/xSqWsARMMH</url>
 	<url type="faq">https://github.com/iSlammedMyKindle/godotGem/blob/master/docs/faq.md</url>
     <releases>
+
+		<release version="2.0.1" date="2026-3-30">
+			<ul>
+				<li>Joysticks were playing audio feedback regardless if the toggle was on or not; this has now been fixed</li>
+				<li>The font for port select was previously eyeballed, it's now using the same label as checkboxes (looks more uniform with the rest of the settings)</li>
+			</ul>
+
+			<p>That's it! Until next time, see you later!</p>
+		</release>
 		<release version="2.0.0" date="2026-3-21">
             <description>
 				<p>It's been a while... hello there! An entirely new app is ready, right at your fingertips. A lot has changed and their's more to come. Here's what we have:</p>
